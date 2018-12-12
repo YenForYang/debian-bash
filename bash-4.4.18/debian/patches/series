@@ -1,0 +1,28 @@
+# bash44-001.diff
+bash44-019.diff
+bash44-020.diff
+bash44-021.diff
+bash44-022.diff
+bash44-023.diff
+bashbug-editor.diff
+deb-bash-config.diff
+deb-examples.diff
+man-arithmetic.diff
+man-fignore.diff
+man-bashrc.diff
+man-bashlogout.diff
+man-nocaseglob.diff
+man-test.diff
+man-test2.diff
+rbash-manpage.diff
+bash-default-editor.diff
+pgrp-pipe.diff
+input-err.diff
+exec-redirections-doc.diff
+bash-aliases-repeat.diff
+# no-brk-caching.diff
+use-system-texi2html.diff
+bzero.diff
+man-macro-warnings.diff
+po-de-fix.diff
+man-vx-opts.diff

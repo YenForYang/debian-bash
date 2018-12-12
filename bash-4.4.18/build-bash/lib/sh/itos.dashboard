@@ -1,0 +1,12 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I../../../.", "-I../../.././lib", "-I../../.././include", "-I../../.././lib/sh", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-c", "-DHAVE_CONFIG_H", "-DSHELL", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/bash/bash-4.4.18=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-Wno-parentheses", "-Wno-format-security", "-Wdate-time", "-D_FORTIFY_SOURCE=2" ],
+    "objects" : [
+        {
+            "object_name" : "itos.o",
+            "source_name" : "../../.././lib/sh/itos.c",
+            "start_time" : "2018-12-03T01:06:43Z",
+            "end_time" : "2018-12-03T01:06:43Z"
+        }
+    ]
+}

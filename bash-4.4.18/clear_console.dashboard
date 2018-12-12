@@ -1,0 +1,28 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/bash/bash-4.4.18=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-Wl,-z,relro", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--stats", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-o", "clear_console", "-ltinfo" ],
+    "objects" : [
+        {
+            "object_name" : "/tmp/icchwASuG.o",
+            "source_name" : "debian/clear_console.c",
+            "start_time" : "2018-12-03T01:16:03Z",
+            "messages" : [
+                {
+                    "msg" : "result of call is not used\n    write(1, \"\\e[3J\", 4);\n    ^",
+                    "line" : "179",
+                    "diagnostic_num" : "2218",
+                    "file" : "debian\/clear_console.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "/tmp/ipo_iccFy9ohX.o",
+            "source_name" : "ipo_out.c",
+            "start_time" : "2018-12-03T01:16:03Z",
+            "end_time" : "2018-12-03T01:16:03Z"
+        }
+    ]
+}

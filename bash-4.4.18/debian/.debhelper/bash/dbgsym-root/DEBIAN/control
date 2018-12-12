@@ -1,0 +1,12 @@
+Package: bash-dbgsym
+Source: bash
+Version: 4.4.18-3.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1406
+Depends: bash (= 4.4.18-3.1)
+Section: debug
+Priority: optional
+Description: debug symbols for bash
+Build-Ids: 27e294515a52eb93950317491b5326d1d011475c 7f59517f04c9ac3e7fe09c4c2839e9d3f65bd0a1

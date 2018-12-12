@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Sun, 17 Jun 2018 21:15:06 +0200
+Source: bash
+Binary: bash bash-static bash-builtins bash-doc
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64 all
+Version: 4.4.18-3.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Matthias Klose <doko@debian.org>
+Changed-By: Helmut Grohne <helmut@subdivi.de>
+Description:
+ bash       - GNU Bourne Again SHell
+ bash-builtins - Bash loadable builtins - headers & examples
+ bash-doc   - Documentation and examples for the GNU Bourne Again SHell
+ bash-static - GNU Bourne Again SHell (static version)
+Closes: 889757
+Changes:
+ bash (4.4.18-3.1) unstable; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Move man2html dependency to B-D-I and use the thinner -base variant.
+     Closes: #889757.
+Checksums-Sha1:
+ e6f1149461cf8108f35d2231af321fc33cd8fd7c 63384 bash-builtins-dbgsym_4.4.18-3.1_amd64.deb
+ 70edeae2aa43f42c42cafaf83183514ecfa82792 105816 bash-builtins_4.4.18-3.1_amd64.deb
+ e2dbb13b6ca7e2b777caaa08c024015965797b9b 1297184 bash-dbgsym_4.4.18-3.1_amd64.deb
+ 92c23a8d9d63d6f5472b1253678013e8840d3f7f 1599724 bash-doc_4.4.18-3.1_all.deb
+ a9e378a0dcceac2824b63b10a5074abdedb74ad4 1550788 bash-static-dbgsym_4.4.18-3.1_amd64.deb
+ abe5630b2927db466a0c794833a4c5cc87ad0f1e 1723364 bash-static_4.4.18-3.1_amd64.deb
+ 0c17342d739d0ef9ea092d623def62c0467e1045 9499 bash_4.4.18-3.1_amd64.buildinfo
+ 5aca659b99d9a2987d96116ec5065b2c4473a65d 1623712 bash_4.4.18-3.1_amd64.deb
+Checksums-Sha256:
+ d3066b6781c361e808eaa21963c96aa11a4d51507e35bc3a73d901f14fa8bf17 63384 bash-builtins-dbgsym_4.4.18-3.1_amd64.deb
+ 0588694e416c8c0a282f911f7f72a4d81a78e1dff43411170c008dddbc18ad87 105816 bash-builtins_4.4.18-3.1_amd64.deb
+ 4335330514f1fc0e00374fb2971efc3e28763c59019fd3e78c2611b80ea3a8ec 1297184 bash-dbgsym_4.4.18-3.1_amd64.deb
+ 0166453ec888844fb355a42a36269d699e746d1333625140831259bcce7766dc 1599724 bash-doc_4.4.18-3.1_all.deb
+ ae92dac109e1272835f21217b191ad9ce9145a6ff69f6cf13bf13c03b3262eb5 1550788 bash-static-dbgsym_4.4.18-3.1_amd64.deb
+ faf53d1daa3482b1ba83bd0dd8f79aead682422789bb76c29d213ca926fc8692 1723364 bash-static_4.4.18-3.1_amd64.deb
+ 407b11fac51ea9830261ff4304c76d1ca49684744c842b3ee0a915ce64b9ebbd 9499 bash_4.4.18-3.1_amd64.buildinfo
+ 763c4c7f4e68ad280094fd592943a2524ab603d2736df4940cc51beddb75d28e 1623712 bash_4.4.18-3.1_amd64.deb
+Files:
+ 84229dff52f8819e068f58a893c7a6af 63384 debug optional bash-builtins-dbgsym_4.4.18-3.1_amd64.deb
+ 498bcbdf41f8820bf0dbce2b8a7946d1 105816 utils optional bash-builtins_4.4.18-3.1_amd64.deb
+ 45f1e8cc50464e8dcd4ccf49166b361c 1297184 debug optional bash-dbgsym_4.4.18-3.1_amd64.deb
+ 79a1d34b71d64fe430e698b4a01bf300 1599724 doc optional bash-doc_4.4.18-3.1_all.deb
+ 11b9955fbecd07850e66863f98bbea14 1550788 debug optional bash-static-dbgsym_4.4.18-3.1_amd64.deb
+ 9a19ecfbd2723db95a0c8e934d2cd18a 1723364 shells optional bash-static_4.4.18-3.1_amd64.deb
+ d5bdeb42db23862925fc49f210d8bcbd 9499 base required bash_4.4.18-3.1_amd64.buildinfo
+ 5b8944d3cb00a4d52b9e2d9686e77b29 1623712 shells required bash_4.4.18-3.1_amd64.deb

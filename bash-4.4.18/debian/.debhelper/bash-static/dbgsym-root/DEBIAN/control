@@ -1,0 +1,13 @@
+Package: bash-static-dbgsym
+Source: bash
+Version: 4.4.18-3.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1915
+Depends: bash-static (= 4.4.18-3.1)
+Built-Using: glibc (= 2.27-8)
+Section: debug
+Priority: optional
+Description: debug symbols for bash-static
+Build-Ids: 1a8d159f0037aea5818750b6b30087feea6787ce

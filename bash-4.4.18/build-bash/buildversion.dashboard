@@ -1,0 +1,12 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../.", "-I.././include", "-I.././lib", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DPROGRAM="bash"", "-DCONF_HOSTTYPE="x86_64"", "-DCONF_OSTYPE="linux-gnu"", "-DCONF_MACHTYPE="x86_64-pc-linux-gnu"", "-DCONF_VENDOR="pc"", "-DLOCALEDIR="/usr/share/locale"", "-DPACKAGE="bash"", "-DSHELL", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/bash/bash-4.4.18=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-Wno-parentheses", "-Wno-format-security", "-DBUILDTOOL", "-c", "-o", "buildversion.o" ],
+    "objects" : [
+        {
+            "object_name" : "buildversion.o",
+            "source_name" : ".././version.c",
+            "start_time" : "2018-12-03T01:05:52Z",
+            "end_time" : "2018-12-03T01:05:52Z"
+        }
+    ]
+}

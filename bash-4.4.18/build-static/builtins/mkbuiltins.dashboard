@@ -1,0 +1,98 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I..", "-I../../.", "-I../.././include", "-I../.././lib", "-I../.././builtins", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-c", "-DHAVE_CONFIG_H", "-DSHELL", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/bash/bash-4.4.18=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-Wno-parentheses", "-Wno-format-security" ],
+    "objects" : [
+        {
+            "object_name" : "mkbuiltins.o",
+            "source_name" : "../.././builtins/mkbuiltins.c",
+            "start_time" : "2018-12-03T01:12:13Z",
+            "messages" : [
+                {
+                    "msg" : "argument is incompatible with formal parameter\n    copy = array_create (sizeof (char *));\n                         ^",
+                    "line" : "393",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n    defs->lines = array_create (sizeof (char *));\n                                ^",
+                    "line" : "545",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n      builtin->longdoc = array_create (sizeof (char *));\n                                       ^",
+                    "line" : "786",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n      defs->builtins = array_create (sizeof (BUILTIN_DESC *));\n                                     ^",
+                    "line" : "815",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n      builtin->dependencies = array_create (sizeof (char *));\n                                            ^",
+                    "line" : "930",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n    new = (BUILTIN_DESC *)xmalloc (sizeof (BUILTIN_DESC));\n                                   ^",
+                    "line" : "1070",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n    new->name = savestring (builtin->name);\n                ^",
+                    "line" : "1072",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n    new->shortdoc = savestring (builtin->shortdoc);\n                    ^",
+                    "line" : "1073",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n      builtin->function ? savestring (builtin->function) : (char *)NULL;\n                          ^",
+                    "line" : "1078",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n      builtin->docname  ? savestring (builtin->docname)  : (char *)NULL;\n                          ^",
+                    "line" : "1080",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n        saved_builtins = array_create (sizeof (BUILTIN_DESC *));\n                                       ^",
+                    "line" : "1097",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "argument is incompatible with formal parameter\n        helpfile = (char *)xmalloc (hdlen + strlen (bname) + 1);\n                                    ^",
+                    "line" : "1588",
+                    "diagnostic_num" : "180",
+                    "file" : "..\/..\/.\/builtins\/mkbuiltins.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:12:13Z"
+        }
+    ]
+}
